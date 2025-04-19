@@ -1,0 +1,31 @@
+# node modules - không bao giờ push cái này
+node_modules/
+
+# file môi trường - chứa thông tin nhạy cảm (Mongo URI, API key, v.v.)
+.env
+
+# thư mục upload nếu bạn dùng để lưu ảnh tạm
+upload/
+uploads/
+public/uploads/
+
+# log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# hệ điều hành
+.DS_Store
+Thumbs.db
+
+# editor files
+.vscode/
+.idea/
+
+# hệ thống git
+*.swp
+
+# lock files nếu bạn không dùng
+package-lock.json
+yarn.lock
